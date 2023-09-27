@@ -223,11 +223,13 @@
                 <!-------------------1------------------------------------------------>
                 <li class="catalog__item">
                   <article class="product">
-                    <img
-                      src="img/photo-5.jpg"
-                      alt="Мясная бомба"
-                      class="product__img"
-                    />
+                    <button class="modul-product__img">
+                      <img
+                        src="img/photo-5.jpg"
+                        alt="Мясная бомба"
+                        class="product__img"
+                      />
+                    </button>
                     <p class="product__price">
                       689
                       <span class="currency">₽</span>
@@ -242,11 +244,13 @@
                 <!-------------------2------------------------------------------------>
                 <li class="catalog__item">
                   <article class="product">
-                    <img
-                      src="img/photo-1.jpg"
-                      alt="Супер сырный"
-                      class="product__img"
-                    />
+                    <button class="modul-product__img">
+                      <img
+                        src="img/photo-1.jpg"
+                        alt="Супер сырный"
+                        class="product__img"
+                      />
+                    </button>
                     <p class="product__price">
                       550
                       <span class="currency">₽</span>
@@ -261,11 +265,13 @@
                 <!-------------------3------------------------------------------------>
                 <li class="catalog__item">
                   <article class="product">
-                    <img
-                      src="img/photo-3.jpg"
-                      alt="Сытный"
-                      class="product__img"
-                    />
+                    <button class="modul-product__img">
+                      <img
+                        src="img/photo-3.jpg"
+                        alt="Сытный"
+                        class="product__img"
+                      />
+                    </button>
                     <p class="product__price">
                       639
                       <span class="currency">₽</span>
@@ -280,11 +286,13 @@
                 <!-------------------4------------------------------------------------>
                 <li class="catalog__item">
                   <article class="product">
-                    <img
-                      src="img/photo.jpg"
-                      alt="Тяжелый удар"
-                      class="product__img"
-                    />
+                    <button class="modul-product__img">
+                      <img
+                        src="img/photo.jpg"
+                        alt="Тяжелый удар"
+                        class="product__img"
+                      />
+                    </button>
                     <p class="product__price">
                       480
                       <span class="currency">₽</span>
@@ -299,11 +307,13 @@
                 <!-------------------5------------------------------------------------>
                 <li class="catalog__item">
                   <article class="product">
-                    <img
-                      src="img/photo-2.jpg"
-                      alt="Вечная классика"
-                      class="product__img"
-                    />
+                    <button class="modul-product__img">
+                      <img
+                        src="img/photo-2.jpg"
+                        alt="Вечная классика"
+                        class="product__img"
+                      />
+                    </button>
                     <p class="product__price">
                       450
                       <span class="currency">₽</span>
@@ -318,11 +328,13 @@
                 <!-------------------6------------------------------------------------>
                 <li class="catalog__item">
                   <article class="product">
-                    <img
-                      src="img/photo-4.jpg"
-                      alt="Итальянский"
-                      class="product__img"
-                    />
+                    <button class="modul-product__img">
+                      <img
+                        src="img/photo-4.jpg"
+                        alt="Итальянский"
+                        class="product__img"
+                      />
+                    </button>
                     <p class="product__price">
                       560
                       <span class="currency">₽</span>
@@ -456,7 +468,7 @@
 </div>
     </div>
 <!--------------------------2 е окно---------------------------------------------->
-<div class="modal modal__delivery">
+<div class="modal modal__delivery ">
   <div class="modal__main modal-delivery">
    <div class="modal-delivery__container">
         <h2 class="modal-delivery__title">Доставка</h2>
@@ -497,13 +509,6 @@
   </button>
   </div>
 </div>
-
-    <script>
-      document
-        .querySelector(".order__wrap-title")
-        .addEventListener("click", () => {
-          document.querySelector(".order").classList.toggle("order__open");
-        });
-    </script>
+<script src="js/main.js"></script>
   </body>
 </html>
