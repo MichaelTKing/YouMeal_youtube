@@ -10,6 +10,7 @@
 }
 .modal__open {
   display: flex;
+  z-index: 2;
 }
 
 .modal__main {
