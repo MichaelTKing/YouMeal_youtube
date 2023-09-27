@@ -12,6 +12,7 @@
   background: #FFF;
   box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.16);
   padding: 16px 10px;
+  z-index: 1;
 }
 
 .order__wrap-title {
@@ -50,7 +51,6 @@
 
 .order__open .order__wrap-title {
   margin-bottom: 8px;
-  /* ! todo optimize!!! */
 }
 
 .order__count {
@@ -219,6 +219,7 @@
   .order__wrapper {
     position: unset;
     padding: 24px 16px;
+    z-index: 1;
   }
 
   .order__wrap-title {
